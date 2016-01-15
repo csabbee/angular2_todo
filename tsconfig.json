@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "amd",
+        "noImplicitAny": true,
+        "preserveConstEnums": true,
+        "experimentalDecorators": true,
+        "rootDir": "app",
+        "outDir": "build",
+        "sourceMap": true
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
