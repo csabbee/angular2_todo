@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Angular 2 TODO</title>
+        <link href="node_modules/bootstrap/dist/css/bootstrap.css" type="text/css" rel="stylesheet">
+        
+        <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
+        <script src="node_modules/systemjs/dist/system.src.js"></script>
+        <script src="node_modules/rxjs/bundles/Rx.js"></script>
+        <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+        <script>
+        System.config({
+            packages: {'build': {defaultExtension: 'js'}}
+        });
+        System.import('build/boot');
+        </script>
+    </head>
+    <body>
+        <todo-app>loading...</todo-app>
+    </body>
+</html>
